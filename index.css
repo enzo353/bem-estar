@@ -1,0 +1,230 @@
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+    font-size: 17mm;
+    color:rgb(110, 148, 46)
+ }
+ 
+ h2{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 10mm;
+     color:rgb(110, 148, 46)
+ }
+ 
+ 
+ body{ 
+     background-image:url(../img/);   /*corpo */
+     background-color:rgb(169, 252, 183)
+     
+ }
+ 
+ p{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 5mm;
+     color:rgb(255, 255, 255)  /*aparagrf*/
+ }
+ 
+ .tipo{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 6mm;
+     color:rgb(180, 235, 85)
+ }
+ 
+  .boximg{
+    float: right;
+    width: 530px;
+    height: 360px;
+    margin-right: 110px;
+    margin-right: 700mm;
+    margin-top: -30mm;
+ }
+ 
+
+ 
+ /*.Bem{
+ 
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 7mm;
+     color:rgb(180, 235, 85)
+     
+ }
+*/
+
+
+ 
+.container{
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  /* linhamento e direcionamento*/
+}
+
+.boxBorda{      /* barda da caoixa*/
+    width: 290px;
+    height: 499px;
+    margin: 27px auto;      
+    border: 3px solid #48be6f;
+    text-align: center;
+}
+ 
+.box{  /* dtamanho caixa */
+    width: 250px;
+    height: 400px;
+    margin: 25px auto;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+
+.img1{
+    
+    width: 220px;
+    height: 20px;
+}
+
+.img2{
+    
+    width: 220px;
+    height: 20px;
+}
+
+.img3{
+    
+    width: 220px;
+    height: 20px;
+}
+
+.img4{
+   
+    width: 220px;
+    height: 20px;
+}
+
+.img5{
+   
+    width: 220px;
+    height: 20px;
+}
+
+
+.img6{
+   
+    width: 220px;
+    height: 20px;
+}
+
+.img7{
+   
+    width: 220px;
+    height: 20px;
+}
+
+.img8{
+    
+    width: 220px;     /* confg imgss */
+    height: 20px;
+}
+
+.img9{
+   
+    width: 220px;
+    height: 20px;
+}
+
+.img10{
+    
+    width: 220px;
+    height: 20px;
+}
+
+h3{
+    color: #229206;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+p{
+    color: #115203;
+    font-size: 6mm;
+}
+
+
+
+
+
+
+
+
+
+.footer {   /* divisão do rodape */
+    background-color: #055323;   
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {    /* alinhamento do rodape */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {    /* balhuogo do do rodape para link */
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {    /* balhuogo do do rodape para link */
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-section img {  /* balhuogo do do rodape para link */
+    max-width: 150px; /* */
+    margin-top: 20px;  
+}
+
+
+/* roddinha do pe */
+.roda{
+    color:rgb(255, 255, 255);/* cor */
+    font-size: 18px; /* tamanho */
+    
+    
+    
+
+    
+}
+
+
+
+
+
+
+/* cabecalho */ 
+.header {
+    background-color: #055323; /* cor */
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 0 20px; 
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+/* topo */
+.item {
+    color: rgb(180, 235, 85); /* Estilo itens do menu */
+    font-size: 20px;
+    margin-left: 20px; /* espaço entre os itens */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+.item:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+

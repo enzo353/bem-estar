@@ -1,0 +1,49 @@
+h1{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+   font-size: 17mm;
+   color:rgb(110, 148, 46)
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10mm;
+    color:rgb(191, 218, 145)
+}
+
+
+body{
+    background-image:url(../img/Design\ sem\ nome\ \ nova\ 4\ \ em\ 4k\(1\).png);
+    background-color:rgb(169, 246, 252)
+    
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5mm;
+    color:rgb(255, 255, 255)
+}
+
+.tipo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6mm;
+    color:rgb(180, 235, 85)
+}
+
+.boximg{
+   float: right;
+   width: 510px;
+   height: 360px;
+   margin-right: 110px;
+   margin-right: 70mm;
+   margin-top: -30mm;
+}
+
+
+.Bem{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7mm;
+    color:rgb(180, 235, 85)
+    
+}
+
